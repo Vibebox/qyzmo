@@ -1,23 +1,41 @@
-# Qyzmo SRL - Under Construction Website
+# QYZMO - Coming Soon Page
 
-This is a simple "under construction" website for Qyzmo SRL. The website features:
+A modern, responsive "under construction" page for QYZMO.
 
-- Responsive design that works on all devices
-- Company logo integration
-- Contact information
-- Modern, clean design
+## Features
 
-## Files
+- Modern, minimalist design with dark theme
+- Responsive layout for all devices
+- Interactive animations and effects
+- Glassmorphism UI elements
+- Custom QYZMO branding
 
-- `index.html` - Main webpage
-- `styles.css` - Styling
-- `qyzmo_logo.png` - Company logo
-- `favicon.svg`, `favicon-16x16.png`, `favicon-32x32.png` - Website favicons
+## Technologies Used
 
-## Setup
+- HTML5
+- CSS3 (with modern features like backdrop-filter)
+- Vanilla JavaScript
+- Google Fonts (Inter)
 
-Simply upload all files to your web hosting service. The website is static and requires no additional setup or dependencies.
+## Deployment
 
-## Contact
+This site is deployed on Cloudflare Pages.
 
-For any questions or updates, please contact info@qyzmo.com 
+### Local Development
+
+To run the site locally:
+
+1. Clone the repository
+2. Open `index.html` in your browser
+
+### Deployment Process
+
+The site is automatically deployed to Cloudflare Pages when changes are pushed to the main branch.
+
+## Custom Domain
+
+The site is configured to use the custom domain: qyzmo.com
+
+## License
+
+All rights reserved © QYZMO 
