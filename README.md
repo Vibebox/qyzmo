@@ -11,7 +11,7 @@ This is a simple "under construction" website for Qyzmo SRL. The website feature
 
 - `index.html` - Main webpage
 - `styles.css` - Styling
-- `variation3_logo.png` - Company logo
+- `qyzmo_logo.png` - Company logo
 - `favicon.svg`, `favicon-16x16.png`, `favicon-32x32.png` - Website favicons
 
 ## Setup
