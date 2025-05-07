@@ -8,18 +8,37 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="noise"></div>
     <div class="container">
         <div class="content">
-            <img src="logo/A_logo_QYZMO.png" alt="QYZMO Logo" class="logo">
-            <h1>Coming Soon</h1>
-            <p class="subtitle">We're crafting something extraordinary</p>
-            <div class="progress-container">
-                <div class="progress-bar"></div>
+            <div class="logo-container">
+                <img src="logo/A_logo_QYZMO.png" alt="QYZMO Logo" class="logo">
+                <div class="logo-glow"></div>
             </div>
-            <p class="contact">Get in touch: <a href="mailto:contact@qyzmo.com">contact@qyzmo.com</a></p>
+            <h1 class="title">
+                <span class="line">Something</span>
+                <span class="line">Extraordinary</span>
+                <span class="line">is Coming</span>
+            </h1>
+            <p class="subtitle">We're crafting the future of digital experiences</p>
+            <div class="progress-wrapper">
+                <div class="progress-container">
+                    <div class="progress-bar"></div>
+                </div>
+                <div class="progress-text">Launching Soon</div>
+            </div>
+            <div class="contact-section">
+                <p class="contact-text">Stay updated with our journey</p>
+                <a href="mailto:contact@qyzmo.com" class="contact-button">
+                    <span>Get in Touch</span>
+                    <svg class="arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>
